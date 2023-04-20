@@ -1,0 +1,21 @@
+.contenedor{
+padding: 0.5rem;
+display: flex;
+gap:1rem;
+min-height: 5rem;
+flex-direction:row;
+flex-wrap: wrap;
+border: 3px solid #a09e9e;
+}
+
+.elemento{
+  margin: 5px;
+  flex-wrap: wrap;
+}
+
+ @media (max-width:640px){
+  .contenedor{
+    flex-direction:column-reverse;
+   
+  }
+ }
